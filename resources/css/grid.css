@@ -29,14 +29,13 @@ html {
     float: left;
 }
 header {
-    background-color: rgba(226, 240, 229, 1);
+    background-color: #ECECFF;
 }
-.container {
+.top-container {
     width: 1042px;
     display: flex;
     margin: 0 auto;
     padding-bottom: 30px;
-    
 }
 
 .header {
@@ -55,7 +54,29 @@ header {
 }
 
 .button {
-    background-color: rgba(226, 240, 229, 1);
+    background-color: #ECECFF;
     border: none;
 }
 
+/*main artile space*/
+.main-container {
+    width: 1042px;
+    display: flex;
+    margin: 0 auto;
+    padding-bottom: 30px;
+}
+
+.more {
+    float: right;
+}
+
+.articles {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.articles img {
+    height: 200px;
+    display: flex;
+    
+}
