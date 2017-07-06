@@ -5,9 +5,9 @@ html {
     box-sizing: inherit;
 }
 
-/** {
+* {
     border: 1px solid rgba(226, 240, 229, 1);
-}*/
+}
 
 .row {
     width: 100%;
@@ -28,9 +28,11 @@ html {
     width: 33%;
     float: left;
 }
+
 header {
     background-color: #ECECFF;
 }
+
 .top-container {
     width: 1042px;
     display: flex;
@@ -64,6 +66,7 @@ header {
     display: flex;
     margin: 0 auto;
     padding-bottom: 30px;
+    border: 2px solid pink;
 }
 
 .more {
@@ -72,11 +75,13 @@ header {
 
 .articles {
     display: flex;
-    flex-wrap: wrap;
+    justify-content: center;
+    border: 2px solid yellow;
 }
 
 .articles img {
-    height: 200px;
     display: flex;
-    
+    flex-wrap: wrap;
+    height: 150px;
+    margin: 20px;
 }
