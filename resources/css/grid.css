@@ -1,6 +1,7 @@
 html {
     box-sizing: border-box;
     font-family: Helvetica, Arial, sans-serif;
+    font-size: 16px;
 
     }
 *, *:before. *:after {
@@ -61,9 +62,10 @@ header {
     padding-bottom: 20px;
 }
 
-.top-container img, .button img {
+.button img, .header img{
     height: 30px;
     padding-right: 15px;
+
 }
 .story {
     padding-right: 15px;
@@ -87,9 +89,18 @@ header {
     border: none;
 }
 
+.main-banner-photo {
+    z-index: 10;
+    margin-top: 150px;
+    margin-right: 50px;
+}
+.main-banner-photo img {
+     width: 100%;
+     height: 100%;
+}
 
 /*main artile space*/
-.main-container {
+.main-container-top{
     width: 1042px;
     display: flex;
     flex-flow: wrap;
@@ -97,20 +108,45 @@ header {
     margin: 0 auto;
     border-bottom: .5px solid slategray;
     margin-top: 15px;
+    text-align: center;
 }
 
 .from-your-network {
     margin-left: 30px;
 }
 
+.main-container {
+    width: 1042px;
+    display: flex;
+    flex-flow: wrap;
+    justify-content: center;
+    margin: 0 auto;
+    border-bottom: .5px solid slategray;
+    margin-top: 15px;
+    text-align: center;
+}
+
+
+
 .more {
     float: right;
     margin-right: 30px;
 }
+/**/
+.articles {
+    display: block;
+    width: 50%;
+}
 
+.articles h4 {
+    font-size: 1.5rem;
+    font-family: "Courier New", Courier, monospace;
+}
 .articles img {
-    height: 150px;
+    height: 50%;
     margin: 20px;
+    flex-shrink: 1.5;
+    
 }
 
 /*content / stories*/
