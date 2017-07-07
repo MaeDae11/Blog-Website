@@ -68,6 +68,7 @@ header {
 .button img, .header img{
     height: 30px;
     padding-right: 15px;
+    padding-left: 15px;
 
 }
 .story {
@@ -188,3 +189,55 @@ footer {
 }
 
 
+
+
+
+/*media screen differences*/
+@media screen and (max-width: 960px){
+    .main-container, .main-container-top, .top-container, .fixed-header{
+        width: 100%;
+    }
+
+    .col-half {
+        width: 100%;
+    }
+    .header {
+        width: 100%;
+    }
+    .story {
+        /*display: none;*/
+    }
+    .top-container {
+        display: block;
+        width: 100%;
+    }
+
+    .main-banner-photo {
+        display: none;
+    }
+
+    .banner {
+        display: flex;
+        text-align: center;
+        font-size: .90rem;
+        flex-direction: column;
+        background-color: #ECECFF;
+        margin-top: 35px;
+    }
+
+    .button img{
+        height: 20px;
+    }
+
+    .articles {
+        width: 65%;
+    }
+}
+
+
+
+
+@media screen and (min-width: 470px) {
+
+
+}
