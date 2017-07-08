@@ -26,13 +26,13 @@ body {
     width: 45%;
     float: left;
 }
-.col-half {
-    width: 45%;
-    float: left;
-}
+
 .col-third {
     width: 33%;
     float: left;
+}
+.col-forth {
+        width: 40%;
 }
 
 header {
@@ -204,7 +204,6 @@ footer {
         width: 100%;
         position: static;
     }
-
     .col-half {
         width: 100%;
     }
