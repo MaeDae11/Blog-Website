@@ -3,7 +3,7 @@ html {
     font-family: "Courier New", Courier, monospace;
     font-size: 16px;
     }
-
+/***************************/
 /*overal settings*/
 body {
     margin: 0;
@@ -29,7 +29,7 @@ body {
     float: left;
 }
 
-
+/***************************/
 /*navigation heading*/
 header {
     background-color: #ECECFF;
@@ -76,7 +76,7 @@ header {
     font-family: "Courier New";
 }
 
-
+/***************************/
 /*banner*/
 .banner {
     margin-top: 125px;
@@ -101,6 +101,7 @@ header {
      height: 100%;
 }
 
+/***************************/
 /*main article top*/
 .main-container-top{
     width: 1042px;
@@ -121,7 +122,7 @@ header {
     margin-right: 20px;
 }
 
-
+/***************************/
 /*articles*/
 .main-container {
     width: 1042px;
@@ -149,8 +150,8 @@ header {
     flex-shrink: 1.5;
 }
 
+/***************************/
 /*content / Feature / stories*/
-
 .side-story-container{
     margin: 10px;
     display: flex;
@@ -168,7 +169,7 @@ header {
 }
 
 
-
+/***************************/
 /*footer*/
 footer {
     background-color: #ECECFF;
@@ -194,8 +195,10 @@ footer {
 }
 
 
-
+/***************************/
+/***************************/
 /*media screen differences*/
+
 @media screen and (max-width: 1024px){
     .main-container, .main-container-top, .top-container, .fixed-header{
         width: 100%;
@@ -244,8 +247,8 @@ footer {
 
 
 
-
-
+/***************************/
+/***************************/
 @media screen and (max-width: 600px) {
     .col-half {
         width: 100%;
@@ -311,6 +314,16 @@ footer {
 }
 
 
+
+
+
+
+
+
+/***************************/
+/***************************/
+/***************************/
+/***************************/
 /*main articles stylesheet*/
 .main-article-container {
     width: 1024px;
@@ -338,9 +351,10 @@ footer {
     padding-top: 30px;
 }
 
+/***************************/
+/*left side column*/
 .side-article-container {
     margin-top: 30px;
-
 }
 .side-article {
     display: flex;
@@ -359,11 +373,11 @@ footer {
     width: 60%;
 }
 
+/***************************/
+/*main feature story*/
 .col-main-feature-story img {
     float: right;
-
 }
-
 .home-button {
     padding-right: 30px;
     font-size: 13px;
