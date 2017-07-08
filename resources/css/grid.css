@@ -315,14 +315,19 @@ footer {
     margin: 0 auto;
 }
 
-.col-forth {
+.col-left {
     width: 30%;
     float: left;
     display: flex;
     padding-left: 20px;
     margin-top: 100px;
-    border: 2px solid yellow;
     flex-direction: column;
+}
+.col-main {
+    width: 65%;
+    float: left;
+    display: flex;
+    margin-top: 100px;
 }
 .side-article-container {
     margin-top: 30px;
