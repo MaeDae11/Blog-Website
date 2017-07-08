@@ -2,12 +2,9 @@ html {
     box-sizing: border-box;
     font-family: "Courier New", Courier, monospace;
     font-size: 16px;
-
     }
-*, *:before. *:after {
-    box-sizing: inherit;
-}
 
+/*overal settings*/
 body {
     margin: 0;
 }
@@ -31,10 +28,9 @@ body {
     width: 33%;
     float: left;
 }
-.col-forth {
-        width: 40%;
-}
 
+
+/*navigation heading*/
 header {
     background-color: #ECECFF;
 }
@@ -80,8 +76,8 @@ header {
     font-family: "Courier New";
 }
 
-/*banner*/
 
+/*banner*/
 .banner {
     margin-top: 125px;
     margin-left: 20px;
@@ -193,8 +189,6 @@ footer {
     align-content: center;
     font-size: 10px;
 }
-
-
 
 
 
@@ -311,7 +305,43 @@ footer {
     .main-feature p {
         font-size: 13px;
     }
+}
 
 
+/*main articles stylesheet*/
+.main-article-container {
+    width: 1024px;
+    display: flex;
+    margin: 0 auto;
+}
+
+.col-forth {
+    width: 30%;
+    float: left;
+    display: flex;
+    padding-left: 20px;
+    margin-top: 100px;
+    border: 2px solid yellow;
+    flex-direction: column;
+}
+.side-article-container {
+    margin-top: 30px;
 
 }
+.side-article {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.side-article img {
+    width: 100%;
+}
+.side-article-image {
+    width: 30%;
+}
+.side-article-text {
+    width: 60%;
+}
+
+
