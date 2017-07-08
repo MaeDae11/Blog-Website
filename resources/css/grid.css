@@ -173,11 +173,14 @@ header {
 footer {
     background-color: #ECECFF;
     margin: 0;
+    border-top: 1px solid slategray;
 }
 
 .bottom-container {
     width: 1042px;
     display: flex;
+    justify-content: space-between;
+    align-items: center;
     margin: 0 auto;
 }
 
@@ -320,15 +323,21 @@ footer {
     float: left;
     display: flex;
     padding-left: 20px;
-    margin-top: 100px;
+    margin-top: 50px;
+    padding-top: 30px;
     flex-direction: column;
+    background-color: #ECECFF;
+    border-right: 1px solid slategray;
 }
 .col-main {
     width: 65%;
     float: left;
     display: flex;
-    margin-top: 100px;
+    margin-top: 50px;
+    margin-left: 20px;
+    padding-top: 30px;
 }
+
 .side-article-container {
     margin-top: 30px;
 
@@ -344,9 +353,18 @@ footer {
 }
 .side-article-image {
     width: 30%;
+    
 }
 .side-article-text {
     width: 60%;
 }
 
+.col-main-feature-story img {
+    float: right;
 
+}
+
+.home-button {
+    padding-right: 30px;
+    font-size: 13px;
+}
