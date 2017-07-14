@@ -17,3 +17,5 @@ Overall:
 Great project to continue working on flexbox layout and expand website development. Experimenting with hover aspects was quite entertaining. In turn, I can't wait to see everything that JavaScrip can implement. 
 
 
+Future Changes:
+My goal is to peirodically update this site as my skill expland. I feel it would be a great way to look back at code and understand past projects, making sure commit are well articulated and notes left within HTML and CSS files are informative.
