@@ -73,12 +73,16 @@ header {
     background: none;
     border: none;
 }
-.menu-container{
+
+ /*when menu container-on  */
+ .menu-container {
+    display: block;
     width: 100%;
     text-align: center;
     background-color: lightcyan;
-    padding-top: 70px;
-}
+    padding-top: 10px;
+} 
+
 ul {
     padding-left: 0;
     margin-left: 0;
@@ -86,20 +90,15 @@ ul {
     width: 100%;
 }
 
-.menu-on li {
+.menu-list li {
     list-style-type: none;
     width: 100%;
-    padding: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
     text-decoration: none;
     border-bottom: .75px solid lightslategray;
 }
 
-.icon-off {
-    display: none;
-}
-.menu-off {
-    display: none;
-}
 
 
 .story {
