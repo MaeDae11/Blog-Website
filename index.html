@@ -3,10 +3,14 @@
     <head>
         <meta charset="UTF-8">
         <title>Cat Post Central</title>
+        <!--my css  -->
         <link rel="stylesheet" href="resources/css/grid.css">
-        <link rel="shortcut icon" href="resources/images/favicon (1).ico" type="image/x-icon">
+        <!--favicon  -->
         <link rel="icon" href="resources/images/favicon (1).ico" type="image/x-icon">
+        <!--fonts  -->
         <link href="https://fonts.googleapis.com/css?family=Fauna+One|Playfair+Display" rel="stylesheet">
+        <!--normalize  -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.css">
     </head>
 
     <body>
@@ -15,9 +19,17 @@
                 <div class="top-container">
                     <div class="header row">
                         <div class="logo">
+                            <button class="hamburger" data-image-role="hamburger">
+                                <img src="resources/images/hamburgermenu.png" alt="menu button">
+                            </button>
+
+                            <button class="exit icon-off" data-image-role="exit-container">
+                                <img src="resources/images/cross.png" alt="exit out of menu">
+                            </button>
                             <img src="resources/images/cat-logo.png" alt="Medium logo">
                             <span><a href="main.html">Caterday</a></span>
                         </div>
+                        
                         <div class="navigation-top">
                             <!--if want to add "write a story" section. css already finished-->
                             <!--<span><a href="#" class="story">Write a story</a></span>-->
@@ -27,6 +39,16 @@
                     </div>
                 </div>
             </div>
+
+            <div class="menu-container">   
+                <ul class="menu-off" data-text-role="menu">
+                    <a href="#"><li>Home</li></a>
+                    <a href="#"><li>Write a Story</li></a>
+                    <a href="#"><li>About</li></a>
+                    <a href="#"><li>Contact Us</li></a>
+                </ul>
+            </div>
+
             <div class="top-container row">
                 <div class="banner-container col-half">
             
@@ -102,15 +124,15 @@
                 </div>
             </div>
         </stories>
+        <footer>
+            <div class="bottom-container">
+                <div class="footer">
+                    <h2>Brought to you by Caterday INC.</h2>
+                </div>
+            </div>
+        </footer>
         
     </body>
 
-    <footer>
-        <div class="bottom-container">
-            <div class="footer">
-                <h2>Brought to you by Caterday INC.</h2>
-            </div>
-        </div>
-    </footer>
 
 </html>
