@@ -6,27 +6,27 @@
 
 
 var $MENU_CONTAINER = $('[data-text-role="menu"]')
-var $EXIT_CONTAINER = $('[data-image-role="exit-container"]')
+var $EXIT_ICON = $('[data-image-role="exit-container"]')
 var $HAMBURGER = $('[data-image-role="hamburger"]')
 var $ICON_BUTTON = $('[data-role="iconButton"]')
 
 
-$EXIT_CONTAINER.hide();
+$EXIT_ICON.hide();
 $MENU_CONTAINER.hide();
 
 function clickMenuButton(){
     $HAMBURGER.click(function (){
         $(this).hide();
-        $EXIT_CONTAINER.show();
-        $MENU_CONTAINER.show("fold", 1000)
+        $EXIT_ICON.show();
+        $MENU_CONTAINER.show("slow")
     });
 }
 
 function clickExitButton(){
-    $EXIT_CONTAINER.click(function (){
+    $EXIT_ICON.click(function (){
         $HAMBURGER.show();
         $(this).hide();
-        $MENU_CONTAINER.hide("fold", 1000);
+        $MENU_CONTAINER.hide("slow");
     });
 }
 
@@ -36,4 +36,4 @@ clickExitButton();
 
 $MENU_CONTAINER.toggleClass('.menu-container', '.menu-container-on');
 $HAMBURGER.toggleClass('.hamburger', '.icon');
-$EXIT_CONTAINER.toggleClass('.icon', '.exit');
+$EXIT_ICON.toggleClass('.icon', '.exit');
