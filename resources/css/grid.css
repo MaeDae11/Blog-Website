@@ -110,7 +110,7 @@ ul {
 /***************************/
 /*banner*/
 .banner {
-    margin-top: 100px;
+    margin-top: 10px;
     margin-left: 20px;
     padding-top: 20px;
     padding-bottom: 20px;
@@ -126,7 +126,7 @@ ul {
 
 .main-banner-photo {
     z-index: 10;
-    margin-top: 175px;
+    margin-top: 35px;
     margin-left: 50px;
 }
 
@@ -395,7 +395,9 @@ footer {
 /***************************/
 /***************************/
 /*main articles stylesheet*/
-
+main {
+    background-color: white;
+}
 .main-article-container {
     width: 1024px;
     display: flex;
@@ -407,7 +409,6 @@ footer {
     /*float: left;*/
     display: flex;
     padding: 20px 20px;
-    margin-top: 50px;
     flex-direction: column;
     border-right: 1px solid slategray;
 }
@@ -417,7 +418,6 @@ footer {
     float: left;
     display: flex;
     padding: 20px 20px;
-    margin-top: 70px;
 }
 
 /***************************/
@@ -432,6 +432,7 @@ footer {
     justify-content: space-between;
     align-items: center;
     border: .5px solid lightgray;
+    background-color: #ECECFF;
 }
 
 .side-article img {
@@ -513,6 +514,8 @@ footer {
         display: none;
     }
     .side-article-text {
+        text-align: center;
+        width: 100%;
         padding-left: 20px;
     }
     .feature-paragraph {
