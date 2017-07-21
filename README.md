@@ -19,3 +19,13 @@ Great project to continue working on flexbox layout and expand website developme
 
 Future Changes:
 My goal is to peirodically update this site as my skill expland. I feel it would be a great way to look back at code and understand past projects, making sure commit are well articulated and notes left within HTML and CSS files are informative.
+
+
+7/21/17
+Changes have included the "hamburger" menu implementing jQuery.
+
+Difficulties:
+The original HTML file contained the jQuery slim script. When using this, the "slow" duration property of .show() and .hide() did not work. Since it was a new concept I changed around my code many times before understanding what was happening. After debugging through the console, I found that .show("slow") returned unidetified. This led me to trying jQuery minified script instead. This change implemented the "slow" property and I was able to move forward with margins, padding, etc. 
+
+Overall:
+It's nice to understand more the differences of the script links and to possibly check the console for features in the future.
