@@ -1,5 +1,7 @@
 # Blog-Website
-DigitalCrafts Project: blog page modeled after Medium.com website
+Blog page modeled after Medium.com website featuring my favorite fuffy orange cat, Oliver.
+
+<a href="https://d37vamwtg4r5xf.cloudfront.net.">AWS Website</a>
 
 <b>Overall Concept</b>
 <p>The design of this website focused on different aspects of flexbox. We used the blog site, Medium.com, as a general layout and deisnged our own website from there.</p>
